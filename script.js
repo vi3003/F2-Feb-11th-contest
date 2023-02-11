@@ -41,7 +41,7 @@ function addData() {
 function removeFailedStudent() {
   //Write your code here, just console.log
   let filtered_arr = arr.filter(function (val){
-    if (val.marks < "50") {
+    if (val.marks >= "50") {
       return val;
     }
   });
